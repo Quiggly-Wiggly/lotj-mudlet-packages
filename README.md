@@ -1,9 +1,9 @@
 # LotJ Mudlet Packages
 
-Six ready-to-install packages from **Quiggly-Wiggly** for Legends of the Jedi.
+Seven ready-to-install packages from **Quiggly-Wiggly** for Legends of the Jedi.
 One place to download them; each package has its own source repository.
 
-**[Download all six (.zip)](https://github.com/Quiggly-Wiggly/lotj-mudlet-packages/releases/latest/download/LotJ-Mudlet-Packages.zip)** · [All releases](https://github.com/Quiggly-Wiggly/lotj-mudlet-packages/releases)
+**[Download all seven (.zip)](https://github.com/Quiggly-Wiggly/lotj-mudlet-packages/releases/latest/download/LotJ-Mudlet-Packages.zip)** · [All releases](https://github.com/Quiggly-Wiggly/lotj-mudlet-packages/releases)
 
 ## Pick your packages
 
@@ -18,6 +18,7 @@ source code, full setup instructions, and issue tracking.
 | [Vendor Manager](https://github.com/Quiggly-Wiggly/lotj-mudlet-packages/releases/latest/download/LotJ.Vendor.Manager.mpackage) | v1.2.0 | `vendormgr` | [Examine entries, stock vendors, and set prices](https://github.com/Quiggly-Wiggly/le-examine) |
 | [Auto Armor](https://github.com/Quiggly-Wiggly/lotj-mudlet-packages/releases/latest/download/LotJ.Auto.Armor.mpackage) | v2.3.1 | `autoarmor` | [Armor and enhancement queues](https://github.com/Quiggly-Wiggly/lotj-auto-armor) |
 | [Cargo Scanner](https://github.com/Quiggly-Wiggly/lotj-mudlet-packages/releases/latest/download/lotj-cargoscanner.mpackage) | v0.4.0 | `cargoscan` | [Compare routes from your own scanned prices](https://github.com/Quiggly-Wiggly/lotj-cargoscanner) |
+| [Comlink Crafter](https://github.com/Quiggly-Wiggly/lotj-mudlet-packages/releases/latest/download/LotJ.Comlink.Crafter.mpackage) | v1.5.0 | `mclhelp` | [Batch crafting, tuning, and container packing](https://github.com/Quiggly-Wiggly/lotj-comlink-crafter) |
 
 ## Install
 
@@ -35,8 +36,9 @@ version first. Remove old **Autoflight 2.0**, **Autobuildship**, **AutoArmor**, 
 duplicate `le` / `givevendor` aliases before installing their replacements.
 Vendor Manager retains the package ID `le-examine`; disable the old standalone
 Vendor Giving alias with `lua disableAlias("Vendor Giving")`. Auto Armor keeps
-the package ID `AutoArmorEnhanced`. Each source README explains retained settings
-and any session-only queues. Buildship estimates require your own learned values.
+the package ID `AutoArmorEnhanced`. Comlink Crafter retains `LotJComlink` and its
+profile-local settings; finish any craft before upgrading. Each source README
+explains retained settings and any session-only queues. Buildship estimates require your own learned values.
 
 ## What is included
 
@@ -50,7 +52,7 @@ change history, and issue tracking remain in the linked source repositories.
 Each binary is copied unchanged from its tagged source release and checked against
 that release's SHA-256 digest. Release checksums are attached as `SHA256SUMS.txt`.
 
-**Collection v1.1.1** is a versioned snapshot of the packages listed above.
-All six source repositories passed their automated checks at publication; live
+**Collection v1.2.0** is a versioned snapshot of the packages listed above.
+All seven source repositories passed their automated checks at publication; live
 UI/gameplay checks remain manual. Check the source releases for changes published
 after this collection. New collection releases update the table and downloads.
