@@ -16,7 +16,7 @@ source code, full setup instructions, and issue tracking.
 | [Autoflight](https://github.com/Quiggly-Wiggly/lotj-mudlet-packages/releases/latest/download/LotJ.Autoflight.mpackage) | v3.0.5 | `autoflight` | [Flights and saved landing preferences](https://github.com/Quiggly-Wiggly/lotj-autoflight) |
 | [Doorways / setdoorway](https://github.com/Quiggly-Wiggly/lotj-mudlet-packages/releases/latest/download/LotJ.Doorways.mpackage) | v1.3.2 | `doorway ui` | [Saved door commands and mapper integration](https://github.com/Quiggly-Wiggly/lotj-doorways) |
 | [Vendor Manager](https://github.com/Quiggly-Wiggly/lotj-mudlet-packages/releases/latest/download/LotJ.Vendor.Manager.mpackage) | v1.2.0 | `vendormgr` | [Examine entries, stock vendors, and set prices](https://github.com/Quiggly-Wiggly/le-examine) |
-| [Auto Armor](https://github.com/Quiggly-Wiggly/lotj-mudlet-packages/releases/latest/download/LotJ.Auto.Armor.mpackage) | v2.3.0 | `autoarmor` | [Armor and enhancement queues](https://github.com/Quiggly-Wiggly/lotj-auto-armor) |
+| [Auto Armor](https://github.com/Quiggly-Wiggly/lotj-mudlet-packages/releases/latest/download/LotJ.Auto.Armor.mpackage) | v2.3.1 | `autoarmor` | [Armor and enhancement queues](https://github.com/Quiggly-Wiggly/lotj-auto-armor) |
 | [Cargo Scanner](https://github.com/Quiggly-Wiggly/lotj-mudlet-packages/releases/latest/download/lotj-cargoscanner.mpackage) | v0.4.0 | `cargoscan` | [Compare routes from your own scanned prices](https://github.com/Quiggly-Wiggly/lotj-cargoscanner) |
 
 ## Install
@@ -50,7 +50,7 @@ change history, and issue tracking remain in the linked source repositories.
 Each binary is copied unchanged from its tagged source release and checked against
 that release's SHA-256 digest. Release checksums are attached as `SHA256SUMS.txt`.
 
-**Collection v1.1.0** is a versioned snapshot of the packages listed above.
+**Collection v1.1.1** is a versioned snapshot of the packages listed above.
 All six source repositories passed their automated checks at publication; live
 UI/gameplay checks remain manual. Check the source releases for changes published
 after this collection. New collection releases update the table and downloads.
